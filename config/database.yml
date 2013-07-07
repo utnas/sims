@@ -2,11 +2,11 @@ defaults: &defaults
   adapter: postgresql
   encoding: unicode
   min_messages: warning
-  username: aojcqngqbefwmn
-  password: KT_mIgPXa3D2QRFWwl9oUSIs6R
+  username: 
+  password: 
 
 store: &store
-  host: ec2-54-243-238-144.compute-1.amazonaws.com
+  host: 
   port: 5432
 
 development:
@@ -19,10 +19,10 @@ production:
   adapter:  postgresql
   encoding: unicode
   pool: 5
-  database: d9hqk0dtokmtui
-  username: aojcqngqbefwmn
-  password: KT_mIgPXa3D2QRFWwl9oUSIs6R
-  host: ec2-54-243-178-223.compute-1.amazonaws.com
+  database: 
+  username: 
+  password: 
+  host: 
   port: 5432
 
 # production:  
